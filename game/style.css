@@ -1,0 +1,21 @@
+/* Shadow Post — page chrome. The game itself is drawn on canvas. */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #05070e; }
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #9fb2d8;
+}
+main { text-align: center; }
+canvas {
+  display: block;
+  width: min(1280px, 96vw);
+  height: auto;
+  border: 1px solid #232a3d;
+  border-radius: 6px;
+  background: #0a0d18;
+}
+.hint { font-size: 13px; margin: 10px 0 0; }
